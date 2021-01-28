@@ -5,14 +5,14 @@ Node.js Driver for Adafruit INA219
 # Install
 
 ````bash 
-$ npm install ina219
+$ npm install easybotics-ina219
 ````
 
 ##Usage
 
 ```javascript
 
-  var ina219 = require('ina219');
+  var ina219 = require('easybotics-ina219');
 
   ina219.init();
   ina219.enableLogging(true);
