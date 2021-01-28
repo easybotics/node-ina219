@@ -2,7 +2,7 @@
 /*
  * Node driver for Adafruit INA219 ported from https://github.com/adafruit/Adafruit_INA219
  */
-var i2c = require('../i2c-bus');	// https://github.com/fivdi/i2c-bus
+var i2c = require('i2c-bus');	// https://github.com/fivdi/i2c-bus
 
 /**
  * Ina219 is the main class exported from the Node module
